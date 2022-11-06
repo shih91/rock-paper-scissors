@@ -37,6 +37,7 @@ export default function Home() {
 				{Object.entries(elements).map(([key, element], i) => (
 					<div className="m-8">
 						<Image
+							key={key}
 							src={element.url}
 							alt={element.alt}
 							width={150}

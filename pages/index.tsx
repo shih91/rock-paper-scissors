@@ -35,9 +35,8 @@ export default function Home() {
 			</h1>
 			<div className="flex h-56 justify-item-center">
 				{Object.entries(elements).map(([key, element], i) => (
-					<div className="m-8">
+					<div className="m-8" key={key}>
 						<Image
-							key={key}
 							src={element.url}
 							alt={element.alt}
 							width={150}

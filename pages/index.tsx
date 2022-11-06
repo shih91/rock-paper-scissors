@@ -3,15 +3,15 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 const elements = {
-	1: {
+	"1": {
 		url: "https://goodday451999.github.io/Rock-Paper-Scissors-Neo/images/stone.png",
 		alt: "it's a rock",
 	},
-	2: {
+	"2": {
 		url: "https://goodday451999.github.io/Rock-Paper-Scissors-Neo/images/paper.png",
 		alt: "it's a paper",
 	},
-	3: {
+	"3": {
 		url: "https://goodday451999.github.io/Rock-Paper-Scissors-Neo/images/scissors.png",
 		alt: "it's a scissors",
 	},

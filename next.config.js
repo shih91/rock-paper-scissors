@@ -7,7 +7,7 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'goodday451999.github.io',
-        port: '',
+        port: '443',
         pathname: '/Rock-Paper-Scissors-Neo/images/**',
       },
     ],

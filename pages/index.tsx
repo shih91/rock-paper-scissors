@@ -48,11 +48,11 @@ export default function Home() {
 				))}
 			</div>
 
-			<div className="flex p-4">
-				<div className="border-2 border-dotted w-60 h-60 m-8">
+			<div className="flex p-4 md:p-0">
+				<div className="border-2 border-dotted md:w-60 md:h-60 md:m-8  sm:m-4">
 					<p className="text-cyan-900 font-bold">You</p>
 					<p className="justify-center">Score</p>
-					<div className="m-8">
+					<div className="md:m-8 m-0">
 						<Image
 							src="https://goodday451999.github.io/Rock-Paper-Scissors-Neo/images/scissors.png"
 							alt="it's a scissors"
@@ -63,10 +63,10 @@ export default function Home() {
 						/>
 					</div>
 				</div>
-				<div className="border-2 border-dotted w-60 h-60 m-8">
+				<div className="border-2 border-dotted md:w-60 md:h-60 md:m-8 sm:m-4">
 					<p className="text-right text-cyan-900 font-bold">Computer</p>
 					<p className="text-right justify-center">Score</p>
-					<div className="m-8">
+					<div className="md:m-8 m-0">
 						<Image
 							src="https://goodday451999.github.io/Rock-Paper-Scissors-Neo/images/scissors.png"
 							alt="it's a scissors"

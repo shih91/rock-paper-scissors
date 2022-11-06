@@ -63,6 +63,9 @@ export default function Home() {
 						/>
 					</div>
 				</div>
+				<div className="grid content-around">
+					<h1 className="font-bold">VS</h1>
+				</div>
 				<div className="border-2 border-dotted md:w-60 md:h-60 md:m-8 sm:m-4">
 					<p className="text-right text-cyan-900 font-bold">Computer</p>
 					<p className="text-right justify-center">Score</p>

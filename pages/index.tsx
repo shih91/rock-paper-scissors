@@ -75,8 +75,8 @@ export default function Home() {
 
 		return (
 			<Image
-				src={currentHand?.url}
-				alt={currentHand?.alt}
+				src={currentHand?.url!}
+				alt={currentHand?.alt!}
 				width={150}
 				height={150}
 				className={btn}
